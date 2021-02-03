@@ -1,0 +1,92 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(181, 181, 181);
+} */
+
+@font-face {
+  font-family: comfortaa;
+  src: url(../../../assets/fonts/ComfortaaBold.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../../../assets/fonts/RobotoBlack.ttf);
+}
+
+.container-adjustment {
+  padding: 0;
+}
+
+.mainPage {
+  text-align: center;
+}
+
+.overlay {
+  min-height: 100vh;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/main1.jpg");
+  background-size: cover;
+}
+
+.mainPageLogo {
+  color: white;
+  padding-top: 30vh;
+}
+
+.homyText {
+  font-family: comfortaa;
+  font-size: 150px;
+  line-height: 110%;
+}
+.homyTextIntro {
+  font-family: comfortaa;
+  font-size: 50px;
+  line-height: 60%;
+}
+
+.buttonGetStarted {
+  /* font-family: roboto; */
+
+  font-family: Arial, roboto;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.button-adjustment {
+  width: 100%;
+}
+
+.buttonGetStarted {
+  margin-top: 30px;
+  font-family: Arial, roboto;
+  font-size: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .button-adjustment {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .buttonGetStarted {
+    font-family: Arial, roboto;
+    font-size: 20px;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .homyText {
+    font-size: 60px;
+  }
+
+  .homyTextIntro {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,40 @@
+img.image-adjustment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+div.center-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.swal-text {
+  padding: 17px;
+  border: 1px solid #f0e1a1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #61534e;
+}
+.swal-button {
+  border: 2px solid rgb(255, 247, 0);
+  background: black;
+}
+div.button-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.center-items {
+  text-align: center;
+}
+
+.center-card {
+  margin: auto;
+}
+
+.card-margin {
+  margin-top: 30px;
+}

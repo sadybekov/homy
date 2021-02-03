@@ -1,2 +1,1 @@
-# homy
-Virtual concierge system
+# Homy

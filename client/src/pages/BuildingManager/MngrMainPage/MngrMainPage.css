@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: comfortaa;
+  src: url(../../../assets/fonts/ComfortaaBold.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../../../assets/fonts/RobotoBlack.ttf);
+}
+
+/* base styles
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+} */
+/* .mngr-navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center; */
+  /* max-width: 600px; */
+  /* max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  border: 1px solid #0f0ff4;
+} */
+.homyTextNavbar {
+  font-family: comfortaa;
+  padding-left:10px;
+  font-size: 50px;
+  background: -webkit-radial-gradient( left, rgb(255, 247, 0), #f1356d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#trashIcon {
+  cursor: pointer;
+}
+
+#trashIcon:hover {
+  color:rgb(245, 52, 9);
+}
+
+
+.service-window {
+  padding-left: 20px;
+  padding-top: 20px;
+  /* border: 1px solid #bf2626; */
+}
+
+.menu-window {
+  padding-left: 20px;
+  padding-top: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.menu-link {
+  text-decoration: none;
+  color:black
+}
+.menu-link h2:hover {
+  color:#f97000;
+}
